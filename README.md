@@ -5,4 +5,3 @@ Android device connects (tcp) to a Raspberry Pi that controls some PCA9622 LED-c
 
 
 
-
