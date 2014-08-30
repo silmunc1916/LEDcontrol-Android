@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/cfg_cat_net">
+    <EditTextPreference android:key="manuelle_ip" android:title="@string/cfg_ip" android:inputType="text"/>
+    <EditTextPreference android:key="tcpport" android:title="@string/cfg_tcpport" android:inputType="number"/>
+    <EditTextPreference android:key="udpport" android:title="@string/cfg_udpport" android:inputType="number"/>
+    
+  </PreferenceCategory>  
+
+</PreferenceScreen>

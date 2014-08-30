@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menui_devs_disconnect" android:title="@string/mnu_devs_disconnect"></item>
+    <item android:id="@+id/menui_devs_edit" android:title="@string/mnu_devs_edit"></item>
+    <item android:id="@+id/menui_devs_del" android:title="@string/mnu_devs_del"></item>
+
+</menu>

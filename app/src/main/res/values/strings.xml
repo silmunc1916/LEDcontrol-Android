@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LEDcontrol</string>
+    <string name="app_version">0.1</string><string name="add">+</string>
+    <string name="connect_title_devices">aktive Geräte</string>
+    
+    <string name="control_shutdown">Raspi Shutdown</string>
+    <string name="control_restart">Raspi Restart</string>
+    <string name="control_ledreset">Reset LEDcontroller</string>
+    <string name="control_stopfx">LED Effektprogramm stop</string>
+    <string name="control_startfx">LED Effektprogramm start</string>
+   
+    <string name="ledcmd_reboot">reboot</string>
+    <string name="ledcmd_shutdown">shutdown</string>
+    <string name="ledcmd_ledreset">reset</string>
+    <string name="ledcmd_stopfx">prog0</string>
+    <string name="ledcmd_startfx">prog1</string>
+    <string name="ledcmd_startfxn">setshow</string>
+    <string name="ledcmd_setcolor">setcolor</string>
+    <string name="live_mode_off">Livemode OFF</string>
+    <string name="live_mode_on">Livemode ON</string>
+    <string name="connect_adddev">neues Gerät</string>
+    <string name="dialog_adddev_name">Name</string>
+    <string name="dialog_adddev_ip">IP-Adresse</string>
+    <string name="gen_save">Speichern</string>
+    <string name="gen_cancel">Abbrechen</string>
+    <string name="dialog_adddev_titel">Controller anlegen</string>
+    <string name="dialog_editdev_titel">Controller ändern</string>
+    <string name="mnu_devs_disconnect">Trennen</string>
+    <string name="mnu_devs_edit">Ändern</string>
+    <string name="mnu_devs_del">Entfernen</string>
+    
+    <string name="cfg_ip">manuelle Lok-IP</string>
+    <string name="cfg_tcpport">tcp-Server-Port</string>
+    <string name="cfg_udpport">udp-Port</string>
+    <string name="cfg_cat_net">Netzwerk</string>
+    <string name="servocmd_move">&lt;move:%1$d:%2$d&gt;</string>
+    
+</resources>

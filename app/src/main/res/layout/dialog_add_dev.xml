@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/space_std_h" >
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:layout_marginBottom="10dip" android:layout_marginLeft="5dip" android:layout_marginRight="5dip">
+
+        <TextView
+            android:id="@+id/textView_dialog_tad_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_adddev_name"
+            android:textSize="@dimen/font_size_med" >
+</TextView>
+
+        <EditText
+            android:id="@+id/editText_dialog_tad_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:textSize="@dimen/font_size_med" >
+
+            <requestFocus></requestFocus>
+        </EditText>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:layout_marginBottom="10dip" android:layout_marginLeft="5dip" android:layout_marginRight="5dip">
+
+        <TextView
+            android:id="@+id/textView_dialog_tad_ip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_adddev_ip"
+            android:textSize="@dimen/font_size_med" >
+</TextView>
+
+        <EditText
+            android:id="@+id/editText_dialog_tad_ip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:textSize="@dimen/font_size_med" >
+
+</EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:paddingTop="@dimen/space_std_h" >
+
+        <Button
+            android:id="@+id/button_dialog_tad_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/space_std_w"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/space_std_h"
+            android:paddingTop="@dimen/space_std_h"
+            android:text="@string/gen_save"
+            android:textSize="@dimen/font_size_large" >
+
+</Button>
+
+        <Button
+            android:id="@+id/button_dialog_tad_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_std_w"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/space_std_h"
+            android:paddingTop="@dimen/space_std_h"
+            android:text="@string/gen_cancel"
+            android:textSize="@dimen/font_size_large" >
+
+</Button>
+    </LinearLayout>
+    
+</LinearLayout>

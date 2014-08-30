@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="actions">
+        <item >Connect</item>
+        <item >Control</item>
+        <item >Live</item>
+        <item >Show erstellen</item>
+        <item >Timer</item>
+        <item >Einstellungen</item>
+        <item >CamControl</item>
+    </string-array>
+    <string-array name="fragment_tags">
+        <item >nix</item>
+        <item >CONNECT</item>
+        <item >CONTROL</item>
+        <item >LIVE</item>
+        <item >SHOWS</item>
+        <item >TIMER</item>
+        <item >CONFIG</item>
+        <item >CAM</item>
+    </string-array>
+    
+</resources>

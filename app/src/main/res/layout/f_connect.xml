@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/space_std_w" >
+
+    <TextView
+        android:id="@+id/textView_connect_devices_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/connect_title_devices"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/font_size_large" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/listView_connect_devices"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </ListView>
+
+        <Button
+            android:id="@+id/button_connect_adddev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="@dimen/button_max_h"
+            android:maxWidth="@dimen/button_max_w"
+            android:minHeight="@dimen/button_min_h"
+            android:minWidth="@dimen/button_min_w"
+            android:text="@string/connect_adddev"
+            android:textSize="@dimen/font_size_large" />
+
+    </LinearLayout>
+
+</LinearLayout>

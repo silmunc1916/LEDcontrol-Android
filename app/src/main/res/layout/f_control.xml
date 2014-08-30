@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button_ctrl_shutdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/space_std_h"
+        android:layout_marginTop="@dimen/space_std_h"
+        android:maxHeight="@dimen/button_max_h"
+        android:maxWidth="@dimen/button_max_w"
+        android:minHeight="@dimen/button_min_h"
+        android:minWidth="@dimen/button_min_w"
+        android:text="@string/control_shutdown"
+        android:textSize="@dimen/font_size_large" />
+
+    <Button
+        android:id="@+id/button_ctrl_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/space_std_h"
+        android:maxHeight="@dimen/button_max_h"
+        android:maxWidth="@dimen/button_max_w"
+        android:minHeight="@dimen/button_min_h"
+        android:minWidth="@dimen/button_min_w"
+        android:text="@string/control_restart"
+        android:textSize="@dimen/font_size_large" />
+
+    <Button
+        android:id="@+id/button_ctrl_ledreset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/space_std_h"
+        android:maxHeight="@dimen/button_max_h"
+        android:maxWidth="@dimen/button_max_w"
+        android:minHeight="@dimen/button_min_h"
+        android:minWidth="@dimen/button_min_w"
+        android:text="@string/control_ledreset"
+        android:textSize="@dimen/font_size_large" />
+
+    <Button
+        android:id="@+id/button_ctrl_stopfx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/space_std_h"
+        android:maxHeight="@dimen/button_max_h"
+        android:maxWidth="@dimen/button_max_w"
+        android:minHeight="@dimen/button_min_h"
+        android:minWidth="@dimen/button_min_w"
+        android:text="@string/control_stopfx"
+        android:textSize="@dimen/font_size_large" />
+
+    <Button
+        android:id="@+id/button_ctrl_startfx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/space_std_h"
+        android:maxHeight="@dimen/button_max_h"
+        android:maxWidth="@dimen/button_max_w"
+        android:minHeight="@dimen/button_min_h"
+        android:minWidth="@dimen/button_min_w"
+        android:paddingLeft="@dimen/space_std_w"
+        android:paddingRight="@dimen/space_std_w"
+        android:text="@string/control_startfx"
+        android:textSize="@dimen/font_size_large" />
+
+</LinearLayout>

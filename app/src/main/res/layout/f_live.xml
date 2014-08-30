@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/view_color"
+            android:layout_width="72dp"
+            android:layout_height="82dp"
+            android:layout_margin="@dimen/space_std_w"
+            android:background="@color/white"
+            android:padding="1dp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton_live_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:maxHeight="@dimen/button_max_h"
+            android:maxWidth="@dimen/button_max_w"
+            android:minHeight="@dimen/button_min_h"
+            android:minWidth="@dimen/button_min_w"
+            android:text="live"
+            android:textOff="@string/live_mode_off"
+            android:textOn="@string/live_mode_on"
+            android:textSize="@dimen/font_size_med" />
+
+    </LinearLayout>
+
+    <wb.ledcontrol.ColorBarView
+        android:id="@+id/colorBarView_live"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

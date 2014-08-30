@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#FF000000</color>
+    <color name="grau1">#ff999999</color>
+    <color name="grau2">#ff777777</color>
+    <color name="gruen1">#ff009900</color>
+    <color name="SpeedbarYellowEnd">#ffffcb00</color>
+    <color name="SpeedbarYellowCenter">#ffffb600</color>
+    <color name="SpeedbarYellowStart">#ffffd300</color>
+    <color name="SpeedbarSecondaryRed">#ffff0000</color>
+    <color name="RampGrey">#ff6c7073</color>
+    <color name="black">#00000000</color>
+    <color name="white">#ffffffff</color>
+    
+    
+</resources>
